@@ -1,125 +1,141 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+  <!-- Segurança e boas práticas -->
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Feiticeira.VIP - A Banca de Apostas Mais Confiável e Rentável</title>
-  <meta name="description" content="Feiticeira.VIP é a melhor banca de apostas online com Pix rápido, suporte 24h e os melhores palpites esportivos. Jogue agora e ganhe!" />
-  <meta name="keywords" content="feiticeiravip, banca de apostas, apostas online, pix rápido, palpites esportivos, feiticeira.vip, cassino, jogos, futebol" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' https: data: blob:; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; frame-src *; connect-src *;">
+  <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+  <meta http-equiv="Strict-Transport-Security" content="max-age=31536000; includeSubDomains; preload">
+  <meta http-equiv="Cross-Origin-Opener-Policy" content="same-origin">
+  <meta name="referrer" content="no-referrer" />
+
+  <!-- SEO e redes sociais -->
+  <title>FeiticeiraVIP - A Banca de Apostas Mais Confiável e Rentável</title>
+  <meta name="description" content="A Feiticeira.VIP é a melhor plataforma de apostas com segurança, pagamentos instantâneos via Pix e suporte 24/7. Jogue e multiplique seus ganhos!" />
+  <meta name="keywords" content="banca de apostas, Feiticeira VIP, apostas online, loterias, cassino, palpites esportivos, ganhar dinheiro, apostas seguras, pix rápido" />
+  <meta name="author" content="Feiticeira.VIP" />
   <meta name="robots" content="index, follow" />
-    <link rel="icon" href="https://assets.trivo.bet/images/feiticeira2.png" type="image/png">
-  <link rel="shortcut icon" href="https://assets.trivo.bet/images/feiticeira2.png" type="image/png">
-  <link rel="canonical" href="https://app.feiticeiravip.site" />
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Feiticeira VIP",
-    "url": "https://app.feiticeiravip.site",
-    "logo": "https://assets.trivo.bet/images/feiticeira2.png",
-    "sameAs": [
-      "https://www.instagram.com/feiticeiravip",
-      "https://www.facebook.com/feiticeiravip"
-    ]
-  }
-  </script>
+  <meta property="og:title" content="Feiticeira.VIP - A Banca de Apostas Mais Confiável e Rentável" />
+  <meta property="og:description" content="Ganhe dinheiro com apostas seguras na Feiticeira.VIP. Pix rápido e suporte 24h. Jogue agora e maximize seus lucros!" />
+  <meta property="og:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhesDatphF1wF9AAHNcDekAQHG9oR4kYMVGBntwFUbpZxi2r6fAy_z09lbIGIH0_ryKSWFrlJVVec_9z2EpL8mgcUZHTBKa5TZL0tgSrScqpoJfnNaytz8bxQf9p9M8NUEEq2J_MOrYjBuGx442sKrCGAmtJaaJAMDq6-XW5THupyaRQZ3id5V7jrE3bEf9/s1600/feiticeira2.png" />
+  <meta property="og:url" content="https://app.feiticeiravip.com.br" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Feiticeira.VIP - A Banca de Apostas Mais Confiável e Rentável" />
+  <meta name="twitter:description" content="Aposte com segurança e receba via Pix na hora. Acesse agora a Feiticeira.VIP!" />
+  <meta name="twitter:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhesDatphF1wF9AAHNcDekAQHG9oR4kYMVGBntwFUbpZxi2r6fAy_z09lbIGIH0_ryKSWFrlJVVec_9z2EpL8mgcUZHTBKa5TZL0tgSrScqpoJfnNaytz8bxQf9p9M8NUEEq2J_MOrYjBuGx442sKrCGAmtJaaJAMDq6-XW5THupyaRQZ3id5V7jrE3bEf9/s1600/feiticeira2.png" />
+
+  <link rel="icon" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhesDatphF1wF9AAHNcDekAQHG9oR4kYMVGBntwFUbpZxi2r6fAy_z09lbIGIH0_ryKSWFrlJVVec_9z2EpL8mgcUZHTBKa5TZL0tgSrScqpoJfnNaytz8bxQf9p9M8NUEEq2J_MOrYjBuGx442sKrCGAmtJaaJAMDq6-XW5THupyaRQZ3id5V7jrE3bEf9/s192/feiticeira2.png" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="canonical" href="https://app.feiticeiravip.com.br" />
+
   <style>
-    body {
-      font-family: system-ui, sans-serif;
+    html, body {
       margin: 0;
       padding: 0;
-      line-height: 1.6;
-      color: #222;
-      background-color: #fff;
-    }
-    header, main, footer {
-      padding: 20px;
-      max-width: 900px;
-      margin: auto;
-    }
-    h1, h2 {
-      color: #8e44ad;
-    }
-    nav {
-      background-color: #8e44ad;
+      height: 100%;
+      overflow: hidden;
+      background: #000;
+      font-family: Arial, sans-serif;
       color: #fff;
-      text-align: center;
-      padding: 10px;
     }
-    nav a {
-      color: #fff;
-      text-decoration: none;
-      margin: 0 10px;
+    .container {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      width: 100%;
     }
-    .cta-button {
-      display: inline-block;
-      background-color: #8e44ad;
-      color: white;
-      padding: 14px 22px;
-      margin: 20px 0;
+    .iframe-container {
+      flex: 1;
+      width: 100%;
+    }
+    iframe {
+      width: 100%;
+      height: 100%;
       border: none;
+    }
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 5px;
+      padding: 5px;
+      background: #000;
+    }
+    .button {
+      background: #006400;
+      color: white;
+      padding: 5px 8px;
       border-radius: 8px;
-      font-size: 16px;
+      font-size: 14px;
       font-weight: bold;
       text-decoration: none;
-      transition: background-color 0.3s ease;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.3);
     }
-    .cta-button:hover {
-      background-color: #732d91;
+    .button.banca {
+      background: #000080;
     }
-    @media (max-width: 600px) {
-      body {
-        padding: 10px;
-      }
-      nav {
-        font-size: 14px;
-      }
-      .cta-button {
-        width: 100%;
-        text-align: center;
-      }
+    .button.palpites {
+      background: #FF5722;
+    }
+    .button img {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
     }
   </style>
+
+  <script>
+    (function () {
+      if (
+        window.location.hostname === "feiticeira.vip"
+      ) {
+        window.location.replace("https://app.feiticeiravip.com.br");
+      }
+    })();
+  </script>
 </head>
 <body>
-  <nav>
-    <a href="https://www.feiticeiravip.site">Início</a>
-    <a href="#apostas">Apostas</a>
-    <a href="#pix">Pix Rápido</a>
-    <a href="#suporte">Suporte</a>
-  </nav>
-
-  <header>
-    <h1>Feiticeira.VIP - A Plataforma de Apostas Mais Rentável</h1>
-    <p>Descubra por que a <strong>Feiticeira.VIP</strong> é a banca de apostas mais confiável do Brasil. Jogue com segurança e receba seus ganhos via <strong>Pix instantâneo</strong>.</p>
-    <a href="https://www.feiticeiravip.com.br" class="cta-button" target="_blank" rel="noopener noreferrer" aria-label="Começar agora na plataforma Feiticeira VIP">🎯 Começar Agora</a>
-  </header>
-
-  <main>
-    <section id="apostas">
-      <h2>Apostas Online com Palpites Esportivos Precisos</h2>
-      <p>Na <strong>Feiticeira VIP</strong>, você encontra as melhores opções de <strong>apostas esportivas</strong>, <strong>loterias</strong> e <strong>cassino</strong>. Nossa plataforma é otimizada para performance e você pode apostar com poucos cliques.</p>
-    </section>
-
-    <section id="pix">
-      <h2>Pagamentos Rápidos via Pix</h2>
-      <p>Ao ganhar uma aposta, você recebe na hora! Trabalhamos com <strong>Pix instantâneo</strong> para garantir agilidade, confiança e total comodidade para nossos usuários.</p>
-    </section>
-
-    <section id="suporte">
-      <h2>Suporte 24h e Atendimento Personalizado</h2>
-      <p>Nosso <strong>suporte 24/7</strong> está sempre pronto para ajudar. Qualquer dúvida sobre seu cadastro, apostas ou saques, nossa equipe está aqui para resolver com agilidade.</p>
-    </section>
-
-    <div style="text-align: center;">
-      <a href="https://www.feiticeiravip.com.br" class="cta-button" target="_blank" rel="noopener noreferrer" aria-label="Apostar agora na plataforma Feiticeira VIP">🔥 Aposte Agora</a>
+  <div class="container">
+    <div class="iframe-container">
+      <iframe allow='clipboard-read; clipboard-write' frameborder='0' height='95%' id='embeddedIframe' loading='lazy' sandbox='allow-scripts allow-same-origin' src='https://app.feiticeira.vip/pr/PRBJ9rmd' title='Conteúdo interativo do Acertos Club' width='100%'></iframe>
     </div>
-  </main>
 
-  <footer>
-    <p>&copy; 2025 Feiticeira.VIP - Todos os direitos reservados.</p>
-    <p>Endereço oficial: <a href="https://www.feiticeiravip.site">www.feiticeiravip.site</a></p>
-  </footer>
+    <div class="buttons">
+      <!-- Banca Parceira -->
+      <a class="button banca" href="https://www.acertosclub.com" target="_blank">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrejyS8jFb4iA7-shAFfeWG9d-r8vleMloL60vXIZRaps3j1ZjjtAaDpkryhG0pLdy8Q4W-Bny1G5fDAxGuKDRXs-ytlypuBQ9UGsrXDD14QMORXBDbO1zkJ9OcbKh7n7YDp-ZunghfP3q4ucZFN62kLPA149uRiIWw8xy0uDuq_Xg6xS_9hZTBCMFh3sb/s320/IMG-20240927-WA0455__2_-removebg-removebg-preview%20(1).png" alt="Ícone" />
+        Parceiro
+      </a>
+
+      <!-- Palpites -->
+      <a class="button palpites" href="https://app1.acertosonline.com" target="_blank" rel="noopener noreferrer">
+        📈 Palpites
+      </a>
+    </div>
+  </div>
+
+  <!-- Banner de instalação -->
+  <div id="install-banner" style="display:none; position: fixed; bottom: 20px; left: 20px; right: 20px; background: #111; color: #fff; padding: 16px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.6); z-index: 9999; text-align: center;">
+    <p style="margin: 0 0 10px;">📲 Instale nosso app para uma experiência mais rápida e prática!</p>
+    <button onclick="window.location.href='/install'">Instalar</button>
+  </div>
+
+  <script>
+    // Exibe o banner de instalação em dispositivos móveis
+    if ("serviceWorker" in navigator && "PushManager" in window) {
+      window.addEventListener("load", function () {
+        if (navigator.standalone) {
+          document.getElementById('install-banner').style.display = 'none';
+        } else {
+          document.getElementById('install-banner').style.display = 'block';
+        }
+      });
+    }
+  </script>
 </body>
 </html>
